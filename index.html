@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume-container">
+        <aside class="sidebar">
+            <img src="Profile Pic.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Muhammad Shayan Ahmed</h1>
+            <p class="job-title">BS in Data Science</p>
+            <div class="personal-info">
+                <h2 class="personal-info"><strong>Personal Information</strong></h2>
+                <ul>
+                    <li><strong>Phone:</strong> +92 312 3354303</li>
+                    <li><strong>Email:</strong> <a href="mailto:shayanahmed8484@gmail.com">shayanahmed8484@gmail.com</a></li>
+                    <li><strong>Address:</strong> Karachi, Sindh, Pakistan</li>
+                    <li><strong>DOB:</strong> 20-Nov-2004</li>
+                    <li><strong>POB:</strong> Hyderabad</li>
+                    <li><strong>Gender:</strong> Male</li>
+                    <li><strong>Nationality:</strong> Pakistani</li>
+                    <li><strong>Marital Status:</strong> Single</li>
+                    <li><strong>Driving License:</strong> A, B</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main-content" id="resumeContent"> <!-- Add this ID here for the PDF generation -->
+            <section class="section" id="educationSection">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Bachelor of Science UG (Present)</strong><br>Sir Syed University of Engineering and Technology (SSUET)<br>(BS) Data Science</li>
+                    <li><strong>Intermediate (Pre-Engineering)</strong><br>Jinnah Govt. College Nazimabad, B.I.E. Karachi</li>
+                    <li><strong>Matriculation (Science)</strong><br>M.E. Foundation School, B.S.E. Karachi</li>
+                </ul>
+            </section>
+
+            <section class="section" id="objectiveSection">
+                <h2>Objective</h2>
+                <p>To secure a challenging position in a dynamic organization where I can contribute my skills and passion for learning, while gaining practical experience and professional growth.</p>
+            </section>
+
+            <section class="section" id="skillsSection">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python (Flask API)</li>
+                    <li>Typescript</li>
+                    <li>Web Development (HTML, CSS, JS)</li>
+                    <li>WordPress (Basic)</li>
+                    <li>Digital Literacy</li>
+                    <li>Communication & Soft Skills</li>
+                </ul>
+            </section>
+
+            <section class="section" id="certificatesSection">
+                <h2>Certificates</h2>
+                <ul>
+                    <li>Digital Literacy from DigiSkills Training (DSPT2.0-Batch-03)</li>
+                    <li>Freelancing from DigiSkills Training (DSPT2.0-Batch-01)</li>
+                    <li>WordPress (Basic) from DigiSkills Training (DSPT2.0-Batch-02)</li>
+                    <li>Communication & Soft Skills from DigiSkills Training (DSPT2.0-Batch-03)</li>
+                </ul>
+            </section>
+
+            <div class="action-buttons">
+                <button id="downloadButton">Download PDF</button>
+                <button id="shareButton">Share Resume</button>
+                <div id="resumeLink"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
